@@ -1,8 +1,9 @@
-package Vista;
+package view.persistance;
 
 public class CurrencySetLoader {
 
     public void load() {
 
+        
     }
 }
