@@ -2,8 +2,20 @@ package model;
 
 public class Money {
 
-    public Money(Object object, Object object0) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    private final double amount;
+    private final Currency currency;
+
+    public Money(double amount, Currency currency) {
+        this.amount = amount;
+        this.currency = currency;
     }
 
+    public double getAmount() {
+        return amount;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+    
 }
